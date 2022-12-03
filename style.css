@@ -13,12 +13,19 @@ body
     padding: 1em;
     text-align: center;
     border: 1px solid black;
-    margin: 0 auto;
+    margin:  auto;
     text-align: left;
 }
-.container h1 
+.titulo 
 {
     font-size: 20px;
     text-align: center;
-
+}
+.branch__Git
+{
+    margin: 0 auto;
+    padding: 1em;
+    text-align: left;
+    width: 70%;
+    border: 1px solid red;
 }

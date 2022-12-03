@@ -9,10 +9,10 @@
 </head>
 <body>
     <div class="container">
-        <div class="container__titulo">
-            <h1>conceptos de Git</h1>
-        <h2>Git init</h2>
+        <div class="titulo">
+            <h1 >Conceptos de Git</h1>
         </div>
+        <h2>Git init</h2>
         <p>Crea dos conceptos nuevos 
             <br><b>Staging</b>: el Stging Area o Area de Preparacion 
             <br><b>Repositorio Local</b>: Base de datos historico del proyecto
@@ -33,6 +33,25 @@
                 </p>
             </p>
             </div>
+    </div>
+    <div class="branch__Git">
+        <h1 class="titulo">INTRODUCCION BRANCH</h1>
+        <p>
+            Las ramas (branches) son la forma de hacer cambios en nuestro proyecto sin afectar el flujo de trabajo de la rama principal. Esto porque queremos trabajar una parte muy específica de la aplicación o simplemente experimentar.
+            <br>
+            La cabecera o HEAD representan la rama y el commit de esa rama donde estamos trabajando. Por defecto, esta cabecera aparecerá en el último commit de nuestra rama principal. Pero podemos cambiarlo al crear una rama (git branch rama, git checkout -b rama) o movernos en el tiempo a cualquier otro commit de cualquier otra rama con los comandos (git reset id-commit, git checkout rama-o-id-commit).
+        </p>
+        <br>
+        <p>
+            Las ramas son la manera de hacer cambios en nuestro proyecto sin afectar el flujo de trabajo de la rama principal. Esto porque queremos trabajar una parte muy específica de la aplicación o simplemente experimentar.
+            <ol>
+                <ul><b>git branch -nombre de la rama-:</b> Con este comando se genera una nueva rama.</ul>
+                <li><b>git checkout -nombre de la rama-:</b>Con este comando puedes saltar de una rama a otra.</li>
+                <li><b>git checkout -b rama: </b>Genera una rama y nos mueve a ella automáticamente, Es decir, es la combinación de git brach y git checkout al mismo tiempo.</li>
+                <li><b>git reset id-commit:</b>Nos lleva a cualquier commit no importa la rama, ya que identificamos el id del tag., eliminando el historial de los commit posteriores al tag seleccionado.</li>
+                <li><b>git checkout rama-o-id-commit: </b>Nos lleva a cualquier commit sin borrar los commit posteriores al tag seleccionado.</li>
+            </ol>
+        </p>
     </div>
 </body>
 </html>
