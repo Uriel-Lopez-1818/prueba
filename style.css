@@ -1,7 +1,7 @@
 body 
 {
     text-align: center;
-    color: blueviolet;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -10,22 +10,35 @@ body
 .container
 {
     width: 70%;
-    padding: 1em;
+    color: rgb(1, 37, 69);
+    background: rgb(174, 178, 107);
     text-align: center;
     border: 1px solid black;
     margin:  auto;
     text-align: left;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(122,121,148,1);
 }
 .titulo 
 {
     font-size: 20px;
+    color: rgb(1, 37, 69);
     text-align: center;
+    border: 1px solid red;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(122, 122, 212);
 }
 .branch__Git
 {
     margin: 0 auto;
+    color: aliceblue;
     padding: 1em;
     text-align: left;
     width: 70%;
     border: 1px solid red;
+    border-radius: 12px;
+    background: #495579;
+    box-shadow: 10px 10px 5px 0px rgba(122,121,148,1);
 }
